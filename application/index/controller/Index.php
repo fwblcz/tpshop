@@ -5,6 +5,10 @@ class Index
 {
     public function index()
     {
-        echo phpinfo();
+        echo 'no';
+    }
+
+    public function test(){
+        echo 'test';exit;
     }
 }
