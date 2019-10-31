@@ -5,10 +5,10 @@ class Index
 {
     public function index()
     {
-        echo 'no';
+        echo 'index';
     }
 
     public function test(){
-        echo 'test';exit;
+        echo 'index test';exit;
     }
 }
